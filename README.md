@@ -1,3 +1,3 @@
 Nama : Dyandra Wahyu Islamy
-Kelas : XPPLG !
+Kelas : XPPLG 1
 Absen : 12
