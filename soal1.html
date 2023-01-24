@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Soal 1</title>
+  <title>Nilai Akhir</title>
 </head>
 <body>
   <script>
@@ -18,6 +18,18 @@
     // nilai >= 55 dan nilai < 65 indeksnya D
     // nilai < 55 indeksnya E
     // TULIS DIBAWAH INI
+    
+    var nilai = prompt("Inputkan nilai akhir:");
+    var grade = "";
+
+    if(nilai >= 90) grade = "A"
+    else if(nilai >= 85) grade = "B"
+    else if(nilai >= 75) grade = "C"
+    else if(nilai >= 65) grade = "D"
+    else if(nilai >= 50) grade = "E"
+    else grade = "F"
+
+    document.write(`<p>Grade anda: ${grade}</p>`);
   </script>
   
 </body>
