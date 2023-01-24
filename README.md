@@ -1,3 +1,5 @@
-Nama : Fajril Yusin Supriadi
-Kelas : X PPLG 1
-No Absen : 15
+Nama : <i>Fajril Yusin Supriadi</i>
+<br>
+Kelas : <i>X PPLG 1</i>
+<br>
+No Absen : <i>15</i>
