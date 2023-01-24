@@ -4,21 +4,34 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Soal 1</title>
+  <title>Misael Soal 1</title>
 </head>
 <body>
   <script>
-    // soal 1
-    // buatlah variabel seperti di bawah ini
-    // var nilai;
-    // pilih angka dari 0 sampai 100, misal 75. lalu isi variabel tersebut dengan angka tersebut. lalu buat lah pengkondisian dengan if-elseif dengan kondisi
-    // nilai >= 85 indeksnya A
-    // nilai >= 75 dan nilai < 85 indeksnya B
-    // nilai >= 65 dan nilai < 75 indeksnya c
-    // nilai >= 55 dan nilai < 65 indeksnya D
-    // nilai < 55 indeksnya E
-    // TULIS DIBAWAH INI
-  </script>
+    var nilai = prompt("Inputkan nilai akhir kamu!:");
+    var grade = "";
+
+    if (nilai >= 85){
+        grade = "A"
+    } else if(nilai >= 75) {
+        grade = "B"
+    } else if(nilai < 85)  {
+        grade = "B"
+    } else if(nilai >= 65) {
+        grade = "C"
+    } else if(nilai < 75)  {
+        grade = "C"
+    } else if(nilai >= 55) {
+        grade = "D"
+    } else if(nilai < 65)  {
+        grade = "D"
+    } else if(nilai < 55)  {
+         grade = "E"
+    }
+      
+    document.write(`<p>Grade kamu: ${grade}</p>`);
+</script>
+  
   
 </body>
 </html>
