@@ -23,6 +23,15 @@
     // #######
     // TULIS DIBAWAH INI
 
+    var ulangi = confirm("apakah anda mau mengulang?");
+    var counter = 0;
+
+    while (ulangi) {
+      counter++;
+      var kali = "x". repeat(counter) + "<br>";
+      document.write(counter + ": " + kali);
+      ulangi = confirm("apakah anda mau mengulangi");
+    }
   </script>
 </body>
 </html>
