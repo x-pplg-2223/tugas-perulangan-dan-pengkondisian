@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Soal 1</title>
-</head>
-<body>
-  <script>
-    // soal 1
-    // buatlah variabel seperti di bawah ini
-    // var nilai;
-    // pilih angka dari 0 sampai 100, misal 75. lalu isi variabel tersebut dengan angka tersebut. lalu buat lah pengkondisian dengan if-elseif dengan kondisi
-    // nilai >= 85 indeksnya A
-    // nilai >= 75 dan nilai < 85 indeksnya B
-    // nilai >= 65 dan nilai < 75 indeksnya c
-    // nilai >= 55 dan nilai < 65 indeksnya D
-    // nilai < 55 indeksnya E
-    // TULIS DIBAWAH INI
-  </script>
-  
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>soal 1</title>
+    </head>
+    <body>
+        <script>
+            var nilai =prompt("inputkan nlai akhir kamu!:");
+            var grade = "";
+
+            if (nilai >= 95) {
+                grade = "A"
+            } else if(nilai >= 85){
+                grade = "B"
+            } else if(nilai >= 80){
+                grade = "B"
+            } else if( nilai >= 75){
+                grade = "C"
+            } else if(nilai >= 65){
+                grade = "C"
+            } else if(nilai >= 55){
+                grade = "C"
+            } 
+            document.write(`<p>Grade kamu: ${grade}</p>`);
+        </script>
+    </body>
 </html>
