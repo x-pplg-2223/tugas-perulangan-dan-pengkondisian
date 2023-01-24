@@ -22,6 +22,17 @@
     // ######
     // #######
     // TULIS DIBAWAH INI
+     var segitiga1
+     var ulangi = confirm("apakah anda ingin mengulangi lagi?");
+     var counter = 0;
+
+     while (ulangi) {
+        counter++;
+        var segitiga1 = "#".repeat(counter) + "<br>"
+        document.write(counter + ":" + segitiga1);
+        ulangi = confirm("apakah anda ingin mengulang")
+     }
+
 
   </script>
 </body>
