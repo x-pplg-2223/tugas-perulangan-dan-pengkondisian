@@ -8,20 +8,17 @@
 </head>
 <body>
   <script>
-    // Kali ini kamu diminta untuk menampilkan sebuah segitiga dengan tanda pagar (#) dengan dimensi tinggi n dan alas n. Looping boleh menggunakan syntax apa pun (while, for, do while).
-    // Output untuk n=3 :
-    // #
-    // ##
-    // ###
-    // Output untuk n=7 :
-    // #
-    // ##
-    // ###
-    // ####
-    // #####
-    // ######
-    // #######
-    // TULIS DIBAWAH INI
+    var segitiga1
+    var ulangi = confirm("Apakah anda ingin mengulangi lagi?");
+    var counter = 0;
+
+    while (ulangi) {
+      counter++;
+      var segitiga1 = "#".repeat(counter) + "<br>"
+      document.write(counter + ":" + segitiga1);
+      ulangi = confirm("apakah anda ingin mengulang")
+    }
+    
 
   </script>
 </body>
