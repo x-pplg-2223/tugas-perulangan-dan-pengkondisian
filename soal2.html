@@ -6,15 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Soal 2</title>
 </head>
-<body>
-  <script>
-    // buatlah variabel seperti di bawah ini
-    // var tanggal = 22;
-    // var bulan = 7;
-    // var tahun = 2020;
-    // ganti tanggal ,bulan, dan tahun sesuai dengan tanggal lahir anda dan buatlah switch case pada bulan, lalu muncul kan string nya dengan output seperti ini 22 Juli 2020 (isi di sesuaikan dengan tanggal lahir masing-masing)
-    // TULIS DIBAWAH INI
+<body> 
     
- </script>  
+<script>
+    var tanggal = prompt("bulan lahir saya");
+    var bulan = "";
+
+    switch(tanggal){
+      case "1" :
+        bulan = "januari";
+        break;
+      case "2" :
+        bulan = "februari";
+        break;
+      case "3" :
+        bulan = "maret";
+        break;
+      case "4" :
+        bulan = "april";
+        break;
+      case "5" :
+        bulan = "mei";
+        break;
+      case "6" :
+        bulan = "juni";
+        break;
+      case "7" :
+        bulan = "juli";
+        break;
+      case "8" :
+        bulan = "agustus";
+        break;
+      case "9" :
+        bulan = "september";
+        break;
+      case "10" :
+        bulan = "oktober";
+        break;
+      case "11" :
+        bulan = "november";
+        break;
+      case "12" :
+        bulan = "desember";
+        break; 
+        default:
+          document.write("<p>Opps anda salah pilihan<p>");
+          }
+            if(bulan === ""){
+              document.write("<p> kamu gagal mendapatkan hadiah</p>");
+            } else {
+            document.write("<h2> tanggal 23 " + bulan + " 2007 </h2>");
+          }
+
+ </script> 
 </body>
 </html>
