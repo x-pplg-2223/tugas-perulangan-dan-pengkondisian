@@ -4,60 +4,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Soal 4</title>
 </head>
 <body>
-  <script>
-    // berilah suatu nilai m dengan tipe integer, dan buatlah pengulangan dari 1 sampai dengan m, dan berikan output sebagai berikut.
-    // contoh :
+  <script> 
+   console.log("\n" + 'Output untuk m = 10');
+var cinta;
+var counter = 1;
+for (let m = 1; m <= 10; m++) {
+    if (counter == 1) {
+        cinta = "programming";
+    } else if (counter == 2) {
+        cinta = "javascript";
+    } else {
+        counter = 1;
+        cinta = "VueJS";
+    }
+    console.log(m + " - I Love " + cinta);
+    if (m % 3 == 0) {
+        counter == 0;
+        console.log('#'.repeat(m));
+    } else {
+        counter++;
+    }
+}
 
-    // Output untuk m = 3
-
-    // 1 - I love programming
-    // 2 - I love Javascript
-    // 3 - I love VueJS
-    // ===
-
-    // Output untuk m = 5
-
-    // 1 - I love programming
-    // 2 - I love Javascript
-    // 3 - I love VueJS
-    // ===
-    // 4 - I love programming
-    // 5 - I love Javascript
-
-    // Output untuk m = 7
-
-    // 1 - I love programming
-    // 2 - I love Javascript
-    // 3 - I love VueJS
-    // ===
-    // 4 - I love programming
-    // 5 - I love Javascript
-    // 6 - I love VueJS
-    // ======
-    // 7 - I love programming
-
-
-    // Output untuk m = 10
-
-    // 1 - I love programming
-    // 2 - I love Javascript
-    // 3 - I love VueJS
-    // ===
-    // 4 - I love programming
-    // 5 - I love Javascript
-    // 6 - I love VueJS
-    // ======
-    // 7 - I love programming
-    // 8 - I love Javascript
-    // 9 - I love VueJS
-    // =========
-    // 10 - I love programming
-
-    // TULIS DIBAWAH INI
   </script>
-  
 </body>
 </html>
