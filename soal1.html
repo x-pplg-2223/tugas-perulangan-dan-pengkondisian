@@ -18,6 +18,16 @@
     // nilai >= 55 dan nilai < 65 indeksnya D
     // nilai < 55 indeksnya E
     // TULIS DIBAWAH INI
+    var nilai = prompt("Inputkan nilai akhir:");
+    var grade = "";
+
+    if(nilai >= 88 && nilai <= 100) grade = "A"
+    else if(nilai >= 74 && nilai < 88) grade = "B"
+    else if(nilai >= 67 && nilai < 74) grade = "C"
+    else if(nilai >= 60 && nilai < 67) grade = "D"
+    else if(nilai < 60 && nilai >= 0) grade = "E"
+    else if(nilai >= 100) grade = "nilai anda tidak masuk akal"
+document.write(`<p>Your Grade: ${grade}</p>`);
   </script>
   
 </body>
